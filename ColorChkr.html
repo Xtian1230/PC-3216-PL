@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gache/Christian/M/BSCS-DS/3A/Activity3</title>
+    <link rel="stylesheet" href="./ColorChkrstyle.css">
+</head>
+<body>
+    <div class="sidenav">
+        <a class="active" href="Home.html">Home</a>
+        <a href="Calculator.html">Calculator</a>
+        <a href="FlagGuess.html">Flag Guess</a>
+        <a href="ColorChkr.html">Color Checker</a>
+      </div>
+
+    <div class="main">
+
+        <div class="container">
+            <h1>Color Contrast Checker</h1>
+
+            <div class="form">
+                <div class="form-group">
+                    <label for="textColor">Text Color:</label>
+                    <input type="color" id="textColor" value="#000000">
+                </div>
+                <div class="form-group">
+                    <label for="bgColor">Background Color:</label>
+                    <input type="color" id="bgColor" value="#ffffff">
+                </div>
+            </div>
+
+            <div class="result">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            </div>
+
+            <p>Contrast Rate:<br><span id="rating">10</span></p>
+
+            <button onclick="contrastChecker(this)">Check Contrast</button>
+        </div>
+
+    </div>
+
+    <!-- Script JS -->
+    <script src="./ColorChkrscript.js"></script>
+</body>
+</html>
